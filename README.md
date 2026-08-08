@@ -51,6 +51,46 @@ And occasionally I accidentally turn a "small project" into an architecture diag
 
 ---
 
+# `aki@terminal:~$ github --stats`
+
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=akilan97272&theme=github_dark"
+    width="32%"
+    alt="GitHub Stats"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=akilan97272&theme=github_dark"
+    width="32%"
+    alt="Top Languages"
+  />
+</p>
+
+![GitHub Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akilan97272&theme=github_dark)
+
+---
+
+# `aki@terminal:~$ ./contribution.sh`
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      src="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
+      alt="GitHub Contribution Snake"
+    />
+  </picture>
+</p>
+
+---
+
 # `aki@terminal:~$ cat personality.txt`
 
 ```text
@@ -356,34 +396,30 @@ repeat
 
 ---
 
-# `aki@terminal:~$ github --stats`
+<!-- MONKEYTYPE:START -->
 
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=akilan97272&theme=github_dark)
+# `aki@terminal:~$ monkeytype --status`
 
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=akilan97272&theme=github_dark)
+```text
+╭────────────────────────────────────────────╮
+│            MONKEYTYPE STATUS               │
+├────────────────────────────────────────────┤
+│                                            │
+│ Profile   : aki_44                         │
+│ Latest    : fetching...                    │
+│ Accuracy  : fetching...                    │
+│ PB        : fetching...                    │
+│ Tests     : fetching...                    │
+│ Streak    : fetching...                    │
+│ Status    : syncing...                     │
+│                                            │
+╰────────────────────────────────────────────╯
+```
+⌨️ [View my Monkeytype profile](https://monkeytype.com/profile/aki_44)
 
-![GitHub Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akilan97272&theme=github_dark)
+Apparently debugging isn't the only thing that requires muscle memory. 😂
 
----
-
-# `aki@terminal:~$ ./contribution.sh`
-
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
-    />
-    <img
-      src="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
-      alt="GitHub Contribution Snake"
-    />
-  </picture>
-</p>
+<!-- MONKEYTYPE:END -->
 
 ---
 

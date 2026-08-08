@@ -1,0 +1,155 @@
+name: Update Monkeytype Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-monkeytype:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Monkeytype stats
+        env:
+          MONKEYTYPE_API_KEY: ${{ secrets.MONKEYTYPE_API_KEY }}
+        run: |
+          curl -fsSL \
+            -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
+            "https://api.monkeytype.com/results/last" \
+            -o latest.json
+
+          curl -fsSL \
+            -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
+            "https://api.monkeytype.com/users/stats" \
+            -o stats.json
+
+          curl -fsSL \
+            -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
+            "https://api.monkeytype.com/users/streak" \
+            -o streak.json
+
+          curl -fsSL \
+            -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
+            "https://api.monkeytype.com/users/personalBests?mode=time" \
+            -o personal_bests.json
+
+      - name: Update README
+        run: |
+          python3 <<'PY'
+          import json
+          from pathlib import Path
+          import re
+
+          readme = Path("README.md")
+          text = readme.read_text()
+
+          latest = json.loads(Path("latest.json").read_text())["data"]
+          stats = json.loads(Path("stats.json").read_text())["data"]
+          streak = json.loads(Path("streak.json").read_text())["data"]
+          pb_data = json.loads(Path("personal_bests.json").read_text())["data"]
+
+          latest_wpm = latest.get("wpm", 0)
+          latest_acc = latest.get("acc", 0)
+
+          completed_tests = stats.get("completedTests", 0)
+          streak_length = streak.get("length", 0)
+
+          # Find the highest WPM among returned personal bests.
+          personal_best = 0
+
+          def walk(value):
+              global personal_best
+
+              if isinstance(value, dict):
+                  if "wpm" in value:
+                      try:
+                          personal_best = max(
+                              personal_best,
+                              float(value["wpm"])
+                          )
+                      except (TypeError, ValueError):
+                          pass
+
+                  for child in value.values():
+                      walk(child)
+
+              elif isinstance(value, list):
+                  for child in value:
+                      walk(child)
+
+          walk(pb_data)
+
+          if personal_best.is_integer():
+              personal_best = int(personal_best)
+
+          if latest_wpm >= personal_best and personal_best > 0:
+              status = "🔥 PB territory"
+          elif streak_length > 0:
+              status = "🟢 Training"
+          else:
+              status = "🟡 Warming up"
+
+          block = f"""<!-- MONKEYTYPE:START -->
+
+          # `aki@terminal:~$ monkeytype --status`
+
+          ```text
+          ╭────────────────────────────────────────────╮
+          │            MONKEYTYPE STATUS               │
+          ├────────────────────────────────────────────┤
+          │                                            │
+          │ Profile   : aki_44                         │
+          │ Latest    : {latest_wpm:>4} WPM                    │
+          │ Accuracy  : {latest_acc:>4}%                     │
+          │ PB        : {personal_best:>4} WPM                    │
+          │ Tests     : {completed_tests:>4}                     │
+          │ Streak    : {streak_length:>4} days                │
+          │ Status    : {status:<20} │
+          │                                            │
+          ╰────────────────────────────────────────────╯
+          ```
+
+          ⌨️ [View my Monkeytype profile](https://monkeytype.com/profile/aki_44)
+
+          > Apparently debugging isn't the only thing that requires muscle memory. 😂
+
+          <!-- MONKEYTYPE:END -->"""
+
+          pattern = r"<!-- MONKEYTYPE:START -->.*?<!-- MONKEYTYPE:END -->"
+
+          updated, count = re.subn(
+              pattern,
+              block,
+              text,
+              flags=re.DOTALL
+          )
+
+          if count != 1:
+              raise SystemExit(
+                  "Could not find exactly one Monkeytype section."
+              )
+
+          readme.write_text(updated)
+          PY
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No Monkeytype changes."
+          else
+            git commit -m "chore: update Monkeytype stats"
+            git push
+          fi
