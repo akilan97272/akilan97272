@@ -509,7 +509,6 @@ Warning:
 # `aki@terminal:~$ shutdown`
 
 ```text
-aki@terminal:~$ exit
 
 Saving progress...
 ████████████████████████████████ 100%
@@ -533,7 +532,6 @@ Curiosity:
 
         see you in the next commit. 👋
         
-aki@terminal:~$ _
 ```
 
 <p align="center">
