@@ -47,7 +47,7 @@ I'm not trying to know everything.
 
 I'm just trying to know **a little more than yesterday**.
 
-And occasionally I accidentally turn a "small project" into an architecture diagram.
+And occasionally I accidentally turn a "small project" into an architecture diagram. 😂
 
 ---
 
@@ -84,26 +84,20 @@ And occasionally I accidentally turn a "small project" into an architecture diag
 # `aki@terminal:~$ neofetch`
 
 ```text
-██████╗  ██╗
-╚════██╗███║
- █████╔╝╚██║
-██╔═══╝  ██║
-███████╗ ██║
-╚══════╝ ╚═╝
-OS          : Linux
-Shell       : Bash / Fish
-Languages   : C / C++ / Java / Python
-Databases   : SQL / MongoDB / Neo4j
-SQL Systems : MySQL / PostgreSQL / MariaDB / SQLite
-Containers  : Docker
-Big Data    : Hive / HDFS
-Interests   : Systems / Data / Backend / Security
-Status      : Still learning...
+  ██████╗  ██╗  OS          : Linux
+  ╚═══██║ ███║  Shell       : Bash / Zsh
+  ██████║ ╚██║  Languages   : C / C++ / Java / Python / JavaScript
+  ██╔═══╝  ██║  Databases   : SQL / MongoDB / Neo4j
+  ██████╗  ██║  SQL Systems : MySQL / PostgreSQL / MariaDB / SQLite
+  ╚═════╝  ╚═╝  Containers  : Docker
+                Big Data    : Hive / HDFS
+                Interests   : Systems / Data / Backend / Security
+                Status      : Still learning...
 ```
 
 ---
 
-# `aki@terminal:~$ ls -la ~/skills`
+# 🐧 `$ ls -la ~/skills`
 
 ## 💻 Languages
 
@@ -111,11 +105,21 @@ Status      : Still learning...
 ![C++](https://skillicons.dev/icons?i=cpp)
 ![Java](https://skillicons.dev/icons?i=java)
 ![Python](https://skillicons.dev/icons?i=python)
+![JavaScript](https://skillicons.dev/icons?i=javascript)
+
+## 🌐 Web & Development
+
+![HTML](https://skillicons.dev/icons?i=html)
+![CSS](https://skillicons.dev/icons?i=css)
+![React](https://skillicons.dev/icons?i=react)
+
+`API Development` & `Backend Development`
 
 ## 🗄️ Databases
 
 ![MySQL](https://skillicons.dev/icons?i=mysql)
 ![PostgreSQL](https://skillicons.dev/icons?i=postgres)
+![MariaDB](https://skillicons.dev/icons?i=mariadb)
 ![MongoDB](https://skillicons.dev/icons?i=mongodb)
 ![SQLite](https://skillicons.dev/icons?i=sqlite)
 ![Neo4j](https://skillicons.dev/icons?i=neo4j)
@@ -123,16 +127,34 @@ Status      : Still learning...
 ## 🐧 Systems & Tools
 
 ![Linux](https://skillicons.dev/icons?i=linux)
-![Bash](https://skillicons.dev/icons?i=bash)
+![Ubuntu](https://skillicons.dev/icons?i=ubuntu)
+![Shell](https://skillicons.dev/icons?i=bash)
 ![Docker](https://skillicons.dev/icons?i=docker)
 ![Git](https://skillicons.dev/icons?i=git)
+
+## 📡 Distributed Systems
+
+![Kafka](https://skillicons.dev/icons?i=kafka)
+
+## 🧠 Knowledge & Productivity
+
+![Obsidian](https://skillicons.dev/icons?i=obsidian)
+
 
 ## 📊 Data & Big Data
 
 ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache&logoColor=black)
 ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
 
-`HDFS` `Data Analysis` `API Development`
+`HDFS` `Data Analysis`
+
+## ✏️ Editors
+
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Zed](https://img.shields.io/badge/Zed-Editor-ffffff?style=for-the-badge)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white)
+![Nano](https://img.shields.io/badge/Nano-Editor-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 ---
 
@@ -422,15 +444,15 @@ repeat
   <a href="mailto:akilan.ss@outlook.com">
     <img src="https://img.shields.io/badge/Email-akilan.ss%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
   </a>
-
+<br>
   <a href="https://www.linkedin.com/in/akilan-s-s-a4376723b">
     <img src="https://img.shields.io/badge/LinkedIn-Akilan%20S%20S-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-
+<br>
   <a href="https://github.com/akilan97272">
     <img src="https://img.shields.io/badge/GitHub-akilan97272-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-
+<br>
 </p>
 
 ---
@@ -461,9 +483,9 @@ Curiosity:
 ────────────────────────────────────────────
 
         see you in the next commit. 👋
-
+        
+aki@terminal:~$ _
 ```
-# `aki@terminal:~$ _`
 
 <p align="center">
   <img
