@@ -103,7 +103,7 @@ Status      : Still learning...
 
 ---
 
-# 🐧 `aki@terminal:~$ ls -la ~/skills`
+# `aki@terminal:~$ ls -la ~/skills`
 
 ## 💻 Languages
 
