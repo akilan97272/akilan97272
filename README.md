@@ -9,27 +9,31 @@
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=aki@terminal:~$&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=BUILD%20%7C%20BREAK%20%7C%20DEBUG%20%7C%20REPEAT&descAlignY=62&animation=fadeIn&color=0:0f0f0f,50:111827,100:1f6feb"
+    src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=aki%40terminal%3A~%24&fontSize=42&fontColor=ffffff&fontAlign=50&fontAlignY=38&desc=BUILD%20%7C%20BREAK%20%7C%20DEBUG%20%7C%20REPEAT&descAlignY=62&animation=fadeIn&color=0:0f0f0f,50:111827,100:1f6feb"
     width="100%"
+    alt="aki@terminal"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=whoami;BTech+IT+Student;I+build+things+to+understand+how+they+work.;Sometimes+I+break+them+too.;Learning+from+mistakes+since+%5BERROR%3A+DATE+NOT+FOUND%5D"
+    src="https://readme-typing-svg.demolab.com/?font=Fira%20Code&weight=500&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=aki%40terminal%3A~%24%20whoami;BTech%20IT%20Student;I%20build%20things%20to%20understand%20how%20they%20work.;Sometimes%20I%20break%20them%20too.;Learning%20from%20mistakes%20since%20ERROR%3A%20DATE%20NOT%20FOUND"
     alt="Typing animation"
   />
 </p>
 
 <p align="center">
   <a href="https://github.com/akilan97272">
-    <img src="https://komarev.com/ghpvc/?username=akilan97272&label=PROFILE%20VISITORS&color=1f6feb&style=flat-square" />
+    <img
+      src="https://komarev.com/ghpvc/?username=akilan97272&label=PROFILE%20VISITORS&color=1f6feb&style=flat-square"
+      alt="Profile visitors"
+    />
   </a>
 </p>
 
 ---
 
-# `$ whoami`
+# `aki@terminal:~$ whoami`
 
 Hey! I'm **Aki** 👋
 
@@ -47,18 +51,18 @@ And occasionally I accidentally turn a "small project" into an architecture diag
 
 ---
 
-# `$ cat personality.txt`
+# `aki@terminal:~$ cat personality.txt`
 
 ```text
 ╭────────────────────────────────────────────────────╮
-│                    AKI STATUS                       │
+│                    AKI STATUS                      │
 ├────────────────────────────────────────────────────┤
 │                                                    │
 │ Curiosity       ████████████████████  OVERFLOW     │
 │ Ideas           ████████████████████  TOO MANY     │
-│ Sleep           ███░░░░░░░░░░░░░░░  CRITICAL      │
-│ Debugging       ████████████████████  ACTIVE      │
-│ Side Quests     ████████████████████  DANGEROUS   │
+│ Sleep           ███░░░░░░░░░░░░░░░  CRITICAL       │
+│ Debugging       ████████████████████  ACTIVE       │
+│ Side Quests     ████████████████████  DANGEROUS    │
 │ Anime           ████████████████████  CLASSIFIED   │
 │                                                    │
 ╰────────────────────────────────────────────────────╯
@@ -77,18 +81,15 @@ And occasionally I accidentally turn a "small project" into an architecture diag
 
 ---
 
-# `$ neofetch`
+# `aki@terminal:~$ neofetch`
 
 ```text
-                 ████████████
-              ████          ████
-            ███                ███
-           ██       AKI          ██
-           ██                    ██
-            ███                ███
-              ████          ████
-                 ████████████
-
+██████╗  ██╗
+╚════██╗███║
+ █████╔╝╚██║
+██╔═══╝  ██║
+███████╗ ██║
+╚══════╝ ╚═╝
 OS          : Linux
 Shell       : Bash / Fish
 Languages   : C / C++ / Java / Python
@@ -102,41 +103,39 @@ Status      : Still learning...
 
 ---
 
-<h2>🐧 $ ls -la ~/skills</h2>
+# 🐧 `aki@terminal:~$ ls -la ~/skills`
 
-<h3>💻 Languages</h3>
+## 💻 Languages
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,java,python" />
 </p>
 
-<h3>🗄️ Databases</h3>
+## 🗄️ Databases
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite,neo4j" />
 </p>
 
-<h3>🐧 Systems & Tools</h3>
+## 🐧 Systems & Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,bash,docker,git" />
 </p>
 
-<h3>📊 Data & Big Data</h3>
+## 📊 Data & Big Data
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=hadoop" />
+  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
+  <img src="https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black" />
+  <img src="https://img.shields.io/badge/HDFS-66CCFF?style=for-the-badge&logo=apache&logoColor=black" />
+  <img src="https://img.shields.io/badge/Data%20Analysis-4CAF50?style=for-the-badge&logo=python&logoColor=white" />
 </p>
+<br>
 
-<p align="center">
-  <code>Hive</code>
-  <code>HDFS</code>
-  <code>Data Analysis</code>
-  <code>API Development</code>
-</p>
 ---
 
-# `$ cat learning.log`
+# `aki@terminal:~$ cat learning.log`
 
 ```text
 [ ACTIVE ]
@@ -183,7 +182,7 @@ Unfortunately...
 
 ---
 
-# `$ systemctl status aki`
+# `aki@terminal:~$ systemctl status aki`
 
 ```text
 ● aki.service - Human Development Process
@@ -207,7 +206,7 @@ Processes:
 
 ---
 
-# `$ cat side_quests/anime.txt`
+# `aki@terminal:~$ cat side_quests/anime.txt`
 
 ```text
 ╭────────────────────────────────────────────╮
@@ -295,7 +294,7 @@ Processes:
 
 ---
 
-# `$ git status`
+# `aki@terminal:~$ git status`
 
 ```text
 On branch: learning
@@ -319,7 +318,7 @@ nothing to commit.
 
 ---
 
-# `$ git log --oneline`
+# `aki@terminal:~$ git log --oneline`
 
 ```text
 learn something
@@ -334,7 +333,7 @@ repeat
 
 ---
 
-<h2>📊 $ github --stats</h2>
+# `aki@terminal:~$ github --stats`
 
 <p align="center">
   <img
@@ -356,7 +355,7 @@ repeat
 
 ---
 
-<h2>🐍 $ ./contribution.sh</h2>
+# `aki@terminal:~$ ./contribution.sh`
 
 <p align="center">
   <picture>
@@ -381,7 +380,7 @@ repeat
 
 ---
 
-# `$ cat known_bugs.log`
+# `aki@terminal:~$ cat known_bugs.log`
 
 ```text
 [BUG-001] Says "I'll keep this project simple."
@@ -408,7 +407,7 @@ repeat
 
 ---
 
-# `$ cat character_sheet`
+# `aki@terminal:~$ cat character_sheet`
 
 ```text
 ╔══════════════════════════════════════════════╗
@@ -431,19 +430,18 @@ repeat
 
 ---
 
-# `$ echo $CONTACT`
+# `aki@terminal:~$ echo $CONTACT`
 
 <p align="center">
 
   <a href="https://github.com/akilan97272">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-
 </p>
 
 ---
 
-# `$ shutdown`
+# `aki@terminal:~$ shutdown`
 
 ```text
 aki@terminal:~$ exit
@@ -477,5 +475,6 @@ aki@terminal:~$ _
   <img
     src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:1f6feb,100:0f0f0f"
     width="100%"
+    alt="Footer"
   />
 </p>
