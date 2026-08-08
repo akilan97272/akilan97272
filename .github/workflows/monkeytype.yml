@@ -58,10 +58,19 @@ jobs:
           streak = json.loads(Path("streak.json").read_text())["data"]
           pb_data = json.loads(Path("personal_bests.json").read_text())["data"]
 
+          # -----------------------------
+          # Monkeytype statistics
+          # -----------------------------
+
           latest_wpm = latest.get("wpm", 0)
           latest_acc = latest.get("acc", 0)
+
           completed_tests = stats.get("completedTests", 0)
           streak_length = streak.get("length", 0)
+
+          # -----------------------------
+          # Find highest personal best
+          # -----------------------------
 
           personal_best = 0
 
@@ -90,31 +99,50 @@ jobs:
           if personal_best.is_integer():
               personal_best = int(personal_best)
 
+          # -----------------------------
+          # Determine service status
+          # -----------------------------
+
           if latest_wpm >= personal_best and personal_best > 0:
               status = "🔥 PB territory"
+          elif streak_length >= 30:
+              status = "⚡ Speed Demon"
+          elif streak_length >= 7:
+              status = "🟢 Building momentum"
           elif streak_length > 0:
-              status = "🟢 Training"
+              status = "🟡 Training"
           else:
-              status = "🟡 Warming up"
+              status = "⚪ Warming up"
+
+          # -----------------------------
+          # Build systemctl-style section
+          # -----------------------------
 
           block = f"""<!-- MONKEYTYPE:START -->
 
-          # `aki@terminal:~$ monkeytype --status`
+          # `aki@terminal:~$ systemctl status monkeytype`
 
           ```text
-          ╭────────────────────────────────────────────╮
-          │            MONKEYTYPE STATUS               │
-          ├────────────────────────────────────────────┤
-          │                                            │
-          │ Profile   : aki_44                         │
-          │ Latest    : {latest_wpm:>4} WPM             │
-          │ Accuracy  : {latest_acc:>4}%              │
-          │ PB        : {personal_best:>4} WPM             │
-          │ Tests     : {completed_tests:>4}             │
-          │ Streak    : {streak_length:>4} days          │
-          │ Status    : {status:<20} │
-          │                                            │
-          ╰────────────────────────────────────────────╯
+          ● monkeytype.service - Aki's Typing Engine
+               Loaded: loaded
+               Active: active (training)
+
+          Performance:
+
+            speed.service       {latest_wpm:>4} WPM
+            accuracy.service    {latest_acc:>4}%
+            pb.service          {personal_best:>4} WPM
+
+          Statistics:
+
+            tests               {completed_tests}
+            streak              {streak_length} days
+
+          Status:
+            {status}
+
+          Warning:
+            typing_speed.service is still under development.
           ```
 
           ⌨️ [View my Monkeytype profile](https://monkeytype.com/profile/aki_44)
@@ -122,6 +150,10 @@ jobs:
           > Apparently debugging isn't the only thing that requires muscle memory. 😂
 
           <!-- MONKEYTYPE:END -->"""
+
+          # -----------------------------
+          # Replace existing section
+          # -----------------------------
 
           pattern = r"<!-- MONKEYTYPE:START -->.*?<!-- MONKEYTYPE:END -->"
 
@@ -138,6 +170,8 @@ jobs:
               )
 
           readme.write_text(updated)
+
+          print("Monkeytype section updated successfully.")
           PY
 
       - name: Sync latest main
