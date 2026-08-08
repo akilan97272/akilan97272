@@ -402,22 +402,29 @@ repeat
 
 <!-- MONKEYTYPE:START -->
 
-# `aki@terminal:~$ monkeytype --status`
+# `aki@terminal:~$ systemctl status monkeytype`
 
 ```text
-╭────────────────────────────────────────────╮
-│            MONKEYTYPE STATUS               │
-├────────────────────────────────────────────┤
-│                                            │
-│ Profile   : aki_44                         │
-│ Latest    : 27.59 WPM             │
-│ Accuracy  : 83.33%              │
-│ PB        : 54.6 WPM             │
-│ Tests     :  810             │
-│ Streak    :    1 days          │
-│ Status    : 🟢 Training           │
-│                                            │
-╰────────────────────────────────────────────╯
+● monkeytype.service - Aki's Typing Engine
+     Loaded: loaded
+     Active: active (training)
+
+Performance:
+
+  speed.service       27.59 WPM
+  accuracy.service    83.33%
+  pb.service          54.6 WPM
+
+Statistics:
+
+  tests               810
+  streak              1 days
+
+Status:
+  🟡 Training
+
+Warning:
+  typing_speed.service is still under development.
 ```
 
 ⌨️ [View my Monkeytype profile](https://monkeytype.com/profile/aki_44)
