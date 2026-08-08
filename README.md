@@ -107,31 +107,32 @@ Status      : Still learning...
 
 ## 💻 Languages
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,python" />
-</p>
+![C](https://skillicons.dev/icons?i=c)
+![C++](https://skillicons.dev/icons?i=cpp)
+![Java](https://skillicons.dev/icons?i=java)
+![Python](https://skillicons.dev/icons?i=python)
 
 ## 🗄️ Databases
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite,neo4j" />
-</p>
+![MySQL](https://skillicons.dev/icons?i=mysql)
+![PostgreSQL](https://skillicons.dev/icons?i=postgres)
+![MongoDB](https://skillicons.dev/icons?i=mongodb)
+![SQLite](https://skillicons.dev/icons?i=sqlite)
+![Neo4j](https://skillicons.dev/icons?i=neo4j)
 
 ## 🐧 Systems & Tools
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,docker,git" />
-</p>
+![Linux](https://skillicons.dev/icons?i=linux)
+![Bash](https://skillicons.dev/icons?i=bash)
+![Docker](https://skillicons.dev/icons?i=docker)
+![Git](https://skillicons.dev/icons?i=git)
 
 ## 📊 Data & Big Data
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
-  <img src="https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black" />
-  <img src="https://img.shields.io/badge/HDFS-66CCFF?style=for-the-badge&logo=apache&logoColor=black" />
-  <img src="https://img.shields.io/badge/Data%20Analysis-4CAF50?style=for-the-badge&logo=python&logoColor=white" />
-</p>
-<br>
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apache&logoColor=black)
+![Hive](https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
+
+`HDFS` `Data Analysis` `API Development`
 
 ---
 
@@ -335,23 +336,11 @@ repeat
 
 # `aki@terminal:~$ github --stats`
 
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=akilan97272&theme=github_dark"
-    width="48%"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=akilan97272&theme=github_dark"
-    width="48%"
-  />
-</p>
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=akilan97272&theme=github_dark)
 
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akilan97272&theme=github_dark"
-    width="96%"
-  />
-</p>
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=akilan97272&theme=github_dark)
+
+![GitHub Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akilan97272&theme=github_dark)
 
 ---
 
@@ -368,14 +357,10 @@ repeat
       srcset="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
     />
     <img
-      alt="GitHub Contribution Snake"
       src="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
+      alt="GitHub Contribution Snake"
     />
   </picture>
-</p>
-
-<p align="center">
-  <i>Apparently even my contributions need a predator. 🐍</i>
 </p>
 
 ---
@@ -468,8 +453,8 @@ Curiosity:
 
         see you in the next commit. 👋
 
-aki@terminal:~$ _
 ```
+# `aki@terminal:~$ _`
 
 <p align="center">
   <img
