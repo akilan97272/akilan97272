@@ -419,9 +419,18 @@ repeat
 
 <p align="center">
 
-  <a href="https://github.com/akilan97272">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="mailto:akilan.ss@outlook.com">
+    <img src="https://img.shields.io/badge/Email-akilan.ss%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
   </a>
+
+  <a href="https://www.linkedin.com/in/akilan-s-s-a4376723b">
+    <img src="https://img.shields.io/badge/LinkedIn-Akilan%20S%20S-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://github.com/akilan97272">
+    <img src="https://img.shields.io/badge/GitHub-akilan97272-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
 </p>
 
 ---
