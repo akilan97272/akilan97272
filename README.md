@@ -65,8 +65,12 @@ And occasionally I accidentally turn a "small project" into an architecture diag
     alt="Top Languages"
   />
 </p>
-
-![GitHub Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akilan97272&theme=github_dark)
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akilan97272&theme=github_dark"
+    alt="GitHub Profile Details"
+  />
+</p>
 
 ---
 
@@ -137,7 +141,7 @@ And occasionally I accidentally turn a "small project" into an architecture diag
 
 ---
 
-# 🐧 `$ ls -la ~/skills`
+# `aki@terminal:~$ ls -la ~/skills`
 
 ## 💻 Languages
 

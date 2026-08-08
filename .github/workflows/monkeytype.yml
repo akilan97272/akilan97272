@@ -17,29 +17,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch Monkeytype stats
+      - name: Test Monkeytype API
         env:
           MONKEYTYPE_API_KEY: ${{ secrets.MONKEYTYPE_API_KEY }}
         run: |
-          curl -fsSL \
+          echo "Testing Monkeytype API..."
+      
+          curl -sS \
             -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
-            "https://api.monkeytype.com/results/last" \
-            -o latest.json
-
-          curl -fsSL \
-            -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
-            "https://api.monkeytype.com/users/stats" \
-            -o stats.json
-
-          curl -fsSL \
-            -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
-            "https://api.monkeytype.com/users/streak" \
-            -o streak.json
-
-          curl -fsSL \
-            -H "Authorization: ApeKey ${MONKEYTYPE_API_KEY}" \
-            "https://api.monkeytype.com/users/personalBests?mode=time" \
-            -o personal_bests.json
+            -o response.json \
+            -w "HTTP_STATUS=%{http_code}\n" \
+            "https://api.monkeytype.com/results/last"
+      
+          echo "Monkeytype response:"
+          cat response.json
 
       - name: Update README
         run: |
