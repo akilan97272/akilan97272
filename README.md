@@ -410,18 +410,19 @@ repeat
 ├────────────────────────────────────────────┤
 │                                            │
 │ Profile   : aki_44                         │
-│ Latest    : fetching...                    │
-│ Accuracy  : fetching...                    │
-│ PB        : fetching...                    │
-│ Tests     : fetching...                    │
-│ Streak    : fetching...                    │
-│ Status    : syncing...                     │
+│ Latest    : 27.59 WPM             │
+│ Accuracy  : 83.33%              │
+│ PB        : 54.6 WPM             │
+│ Tests     :  810             │
+│ Streak    :    1 days          │
+│ Status    : 🟢 Training           │
 │                                            │
 ╰────────────────────────────────────────────╯
 ```
+
 ⌨️ [View my Monkeytype profile](https://monkeytype.com/profile/aki_44)
 
-Apparently debugging isn't the only thing that requires muscle memory. 😂
+> Apparently debugging isn't the only thing that requires muscle memory. 😂
 
 <!-- MONKEYTYPE:END -->
 
