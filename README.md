@@ -427,6 +427,7 @@ Apparently debugging isn't the only thing that requires muscle memory. 😂
 
 ---
 
+
 # `aki@terminal:~$ cat known_bugs.log`
 
 ```text

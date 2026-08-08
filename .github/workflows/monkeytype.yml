@@ -60,7 +60,6 @@ jobs:
 
           latest_wpm = latest.get("wpm", 0)
           latest_acc = latest.get("acc", 0)
-
           completed_tests = stats.get("completedTests", 0)
           streak_length = streak.get("length", 0)
 
@@ -108,11 +107,11 @@ jobs:
           ├────────────────────────────────────────────┤
           │                                            │
           │ Profile   : aki_44                         │
-          │ Latest    : {latest_wpm:>4} WPM                    │
-          │ Accuracy  : {latest_acc:>4}%                     │
-          │ PB        : {personal_best:>4} WPM                    │
-          │ Tests     : {completed_tests:>4}                     │
-          │ Streak    : {streak_length:>4} days                │
+          │ Latest    : {latest_wpm:>4} WPM             │
+          │ Accuracy  : {latest_acc:>4}%              │
+          │ PB        : {personal_best:>4} WPM             │
+          │ Tests     : {completed_tests:>4}             │
+          │ Streak    : {streak_length:>4} days          │
           │ Status    : {status:<20} │
           │                                            │
           ╰────────────────────────────────────────────╯
