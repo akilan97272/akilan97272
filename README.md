@@ -102,38 +102,38 @@ Status      : Still learning...
 
 ---
 
-# `$ ls -la ~/skills`
+<h2>🐧 $ ls -la ~/skills</h2>
 
-### 💻 Languages
+<h3>💻 Languages</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,java,python" />
 </p>
 
-### 🗄️ Databases
+<h3>🗄️ Databases</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite,neo4j" />
 </p>
 
-### 🐧 Systems & Tools
+<h3>🐧 Systems & Tools</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,bash,docker,git" />
 </p>
 
-### 📊 Data & Big Data
+<h3>📊 Data & Big Data</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=hadoop" />
 </p>
 
-```text
-Hive + HDFS
-    ↓
-Currently entering the "Big Data arc".
-```
-
+<p align="center">
+  <code>Hive</code>
+  <code>HDFS</code>
+  <code>Data Analysis</code>
+  <code>API Development</code>
+</p>
 ---
 
 # `$ cat learning.log`
@@ -334,37 +334,50 @@ repeat
 
 ---
 
-# `$ github --stats`
+<h2>📊 $ github --stats</h2>
 
 <p align="center">
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=akilan97272&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=akilan97272&theme=github_dark"
+    width="48%"
   />
   <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=akilan97272&layout=compact&theme=tokyonight&hide_border=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=akilan97272&theme=github_dark"
+    width="48%"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=akilan97272&theme=tokyonight&hide_border=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=akilan97272&theme=github_dark"
+    width="96%"
   />
 </p>
 
 ---
 
-# `$ ./contribution_snake.sh`
+<h2>🐍 $ ./contribution.sh</h2>
 
 <p align="center">
-  <img
-    src="https://github.com/akilan97272/akilan97272/blob/output/github-contribution-grid-snake-dark.svg"
-    alt="GitHub contribution snake"
-  />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
+    />
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/akilan97272/akilan97272/output/github-contribution-grid-snake.svg"
+    />
+  </picture>
 </p>
 
-> Apparently even my contributions need a predator. 🐍
+<p align="center">
+  <i>Apparently even my contributions need a predator. 🐍</i>
+</p>
 
 ---
 
