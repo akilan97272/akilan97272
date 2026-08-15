@@ -411,17 +411,17 @@ repeat
 
 Performance:
 
-  speed.service       35.99 WPM
-  accuracy.service    90.29%
+  speed.service       33.59 WPM
+  accuracy.service    81.9%
   pb.service          54.6 WPM
 
 Statistics:
 
-  tests               914
-  streak              6 days
+  tests               927
+  streak              7 days
 
 Status:
-  🟡 Training
+  🟢 Building momentum
 
 Warning:
   typing_speed.service is still under development.
