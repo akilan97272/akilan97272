@@ -411,14 +411,14 @@ repeat
 
 Performance:
 
-  speed.service         46 WPM
-  accuracy.service    89.92%
+  speed.service       27.6 WPM
+  accuracy.service    78.22%
   pb.service          54.6 WPM
 
 Statistics:
 
-  tests               1031
-  streak              18 days
+  tests               1035
+  streak              19 days
 
 Status:
   🟢 Building momentum
