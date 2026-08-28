@@ -326,11 +326,14 @@ Processes:
 * Black Clover — 170 episodes
 * Kabaneri of the Iron Fortress
 * Chainsaw Man — Season 1 + Movie
+* Cyberpunk Edgerunners
 
 ### Manga Territory
 
 * Solo Leveling
 * The Servant Is the Demon King
+* Cyberpunk Edgerunners: MADDNESS
+* Grand Blue Dreaming
 
 ### Movies / Side Quests
 
