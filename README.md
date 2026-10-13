@@ -414,14 +414,14 @@ repeat
 
 Performance:
 
-  speed.service         48 WPM
-  accuracy.service    92.03%
+  speed.service       45.18 WPM
+  accuracy.service    91.27%
   pb.service          58.38 WPM
 
 Statistics:
 
-  tests               1211
-  streak              65 days
+  tests               1213
+  streak              66 days
 
 Status:
   ⚡ Speed Demon
