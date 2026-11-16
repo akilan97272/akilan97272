@@ -414,17 +414,17 @@ repeat
 
 Performance:
 
-  speed.service       42.4 WPM
-  accuracy.service    90.16%
+  speed.service       42.79 WPM
+  accuracy.service    87.3%
   pb.service          58.38 WPM
 
 Statistics:
 
-  tests               1402
-  streak              98 days
+  tests               1403
+  streak              1 days
 
 Status:
-  ⚡ Speed Demon
+  🟡 Training
 
 Warning:
   typing_speed.service is still under development.
